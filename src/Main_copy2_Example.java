@@ -10,10 +10,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-public class Main {
-// источник: https://www.cyberforum.ru/java-gui/thread3133067.html
-// 1  panel.add(panel1, BorderLayout.SOUTH);
-// И технология swing, кажется, старая...
+public class Main_copy2_Example {
     static class brick {
         int[][][] typicalForms = new int[][][]{{{1, 0}, {1, 1}, {1, 2}, {0, 2}}, {{0, 0}, {0, 1}, {0, 2}, {1, 2}},
                 {{1, 0}, {0, 1}, {1, 1}, {2, 1}}, {{0, 0}, {0, 1}, {0, 2}, {0, 3}}, {{0, 0}, {0, 1}, {1, 0}, {1, 1}}};
